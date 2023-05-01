@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap");
+body {
+  background: #e7eaf6;
+  font-family: "Nunito";
+}
+.container {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+h1 {
+  text-align: center;
+  margin: 50px;
+  font-weight: 600;
+}
+h3 {
+  font-size: 28px;
+  padding: 10px;
+  color: #3e4a61;
+}
+
+.card {
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+i {
+  color: blue;
+}
+.icon-green {
+  color: green;
+}
+a {
+  text-decoration: none !important;
+}
+
+.card-description {
+  display: inline;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+  margin-top: 29px;
+  color: #3e4a61;
+}
+li {
+  margin-bottom: 15px;
+}
+.border-green {
+  border-color: #2eb872;
+}
+.btn-success {
+  background: #2eb872;
+  border-color: #a3de83;
+}
+
+.ribbon {
+  position: absolute;
+  right: -5px;
+  top: -5px;
+  z-index: 1;
+  overflow: hidden;
+  width: 93px;
+  height: 93px;
+  text-align: right;
+}
+.ribbon span {
+  font-size: 0.8rem;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+  line-height: 32px;
+  transform: rotate(45deg);
+  width: 125px;
+  display: block;
+  background: #eb2632;
+
+  box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 17px;
+  right: -29px;
+}
+
+.ribbon span::before {
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 100%;
+  z-index: -1;
+  border-left: 2px solid #eb2632;
+  border-right: 2px solid transparent;
+  border-bottom: 2px solid transparent;
+  border-top: 2px solid #eb2632;
+}
+.ribbon span::after {
+  content: "";
+  position: absolute;
+  right: 0%;
+  top: 100%;
+  z-index: -1;
+  border-right: 3px solid #eb2632;
+  border-left: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+  border-top: 3px solid #eb2632;
+}
+.btnadd {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+}
+.btn {
+  font-size: larger;
+  font-weight: 500;
+}
+
+.container_form {
+  width: 600px;
+  margin: 0 auto;
+}
+.form-group {
+  margin: 0 auto;
+  padding: 5px;
+  font-size: large;
+}
+.table {
+  text-align: center;
+  background: white;
+}
+.btn {
+  font-size: large;
+}
+.back {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
