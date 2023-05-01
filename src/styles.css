@@ -3,6 +3,9 @@ body {
   background: #e7eaf6;
   font-family: "Nunito";
 }
+body.form {
+  background: #455d7a;
+}
 .container {
   padding-left: 20px;
   padding-right: 20px;
@@ -118,6 +121,7 @@ li {
 .container_form {
   width: 600px;
   margin: 0 auto;
+  color: white;
 }
 .form-group {
   margin: 0 auto;
